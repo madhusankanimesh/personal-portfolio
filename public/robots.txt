@@ -1,0 +1,50 @@
+# robots.txt for nimeshmadhusanka.me
+# Nimesh Madhusanka - Full Stack Developer Portfolio
+
+User-agent: *
+Allow: /
+
+# Sitemaps
+Sitemap: https://nimeshmadhusanka.me/sitemap.xml
+
+# Crawl-delay for respectful crawling
+Crawl-delay: 1
+
+# Allow all major search engines
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Slurp
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+User-agent: Baiduspider
+Allow: /
+
+User-agent: facebookexternalhit
+Allow: /
+
+User-agent: Twitterbot
+Allow: /
+
+User-agent: LinkedInBot
+Allow: /
+
+# Allow all crawlers access to CSS, JS, and image files
+Allow: /*.css$
+Allow: /*.js$
+Allow: /*.png$
+Allow: /*.jpg$
+Allow: /*.jpeg$
+Allow: /*.gif$
+Allow: /*.svg$
+Allow: /*.webp$
+
+# Website: https://nimeshmadhusanka.me
+# Owner: Nimesh Madhusanka
+# Contact: madhusankan19@gmail.com

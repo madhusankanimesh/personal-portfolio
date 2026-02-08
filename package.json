@@ -1,0 +1,42 @@
+{
+  "name": "nimesh-madhusanka-portfolio",
+  "version": "1.0.0",
+  "description": "Nimesh Madhusanka's professional portfolio - Full Stack Developer & Creative Technologist specializing in React, Next.js, and modern web development",
+  "keywords": ["nimesh madhusanka", "full stack developer", "react developer", "next.js", "portfolio", "sri lanka developer"],
+  "author": "Nimesh Madhusanka <madhusankan19@gmail.com>",
+  "homepage": "https://nimeshmadhusanka.me",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nimeshmadhusanka/portfolio"
+  },
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "analyze": "cross-env ANALYZE=true next build",
+    "export": "next export",
+    "sitemap": "next-sitemap",
+    "seo-check": "node seo-check.js",
+    "lighthouse": "lighthouse https://pabasarafernando.me --output html --output-path ./lighthouse-report.html"
+  },
+  "dependencies": {
+    "@emailjs/browser": "^4.4.1",
+    "bootstrap": "^5.3.7",
+    "framer-motion": "^12.23.7",
+    "lucide-react": "^0.525.0",
+    "next": "15.4.3",
+    "react": "19.1.0",
+    "react-dom": "19.1.0"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "15.4.3",
+    "typescript": "^5"
+  }
+}
